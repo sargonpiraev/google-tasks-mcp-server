@@ -1,18 +1,7 @@
 {
   "name": "@sargonpiraev/google-tasks-mcp-server",
   "version": "v1",
-  "description": "The Google Tasks API lets you search, read, and update Google Tasks content and metadata.
-
-Google Tasks is built on two basic concepts:
-- **Task List**: A list containing tasks. Users can have more than one task list to manage their tasks
-- **Task**: A single task containing information such as the title, notes, due date, and completion date
-
-**Usage Limits:**
-- 50,000 queries per day (courtesy limit)
-- Up to 2,000 task lists per user
-- Up to 20,000 non-hidden tasks per list
-- Up to 100,000 tasks total per user
-",
+  "description": "The Google Tasks API lets you search, read, and update Google Tasks content and metadata.",
   "keywords": [
     "mcp",
     "claude",
@@ -33,7 +22,7 @@ Google Tasks is built on two basic concepts:
   },
   "scripts": {
     "test": "jest --passWithNoTests --coverage",
-    "dev": "tsx watch ./src/main.ts", 
+    "dev": "tsx watch ./src/main.ts",
     "build": "tsc -p tsconfig.json",
     "lint": "eslint ./src --ext .ts",
     "format": "prettier --write .",

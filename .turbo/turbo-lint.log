@@ -1,0 +1,6 @@
+
+
+> @sargonpiraev/google-tasks-mcp-server@v1 lint
+> eslint ./src --ext .ts
+
+[1G[0K
