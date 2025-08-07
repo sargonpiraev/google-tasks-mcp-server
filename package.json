@@ -1,7 +1,7 @@
 {
   "name": "@sargonpiraev/google-tasks-mcp-server",
   "version": "v1",
-  "description": "The Google Tasks API lets you search, read, and update Google Tasks content and metadata.",
+  "description": "Google Tasks MCP server",
   "keywords": [
     "mcp",
     "claude",

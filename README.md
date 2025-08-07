@@ -49,7 +49,7 @@ npx -y @smithery/cli@latest install @sargonpiraev/google-tasks-mcp-server --clie
 
 #### Cursor One-Click Installation
 
-[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=@sargonpiraev/google-tasks-mcp-server&config=)
+[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=@sargonpiraev/google-tasks-mcp-server&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsIkBzYXJnb25waXJhZXYvZ29vZ2xlLXRhc2tzLW1jcC1zZXJ2ZXIiXSwiZW52Ijp7IkdPT0dMRV9UQVNLU19DTElFTlRfSUQiOiJ5b3VyX2dvb2dsZV90YXNrc19jbGllbnRfaWRfaGVyZSIsIkdPT0dMRV9UQVNLU19DTElFTlRfU0VDUkVUIjoieW91cl9nb29nbGVfdGFza3NfY2xpZW50X3NlY3JldF9oZXJlIn19)
 
 #### Manual Configuration
 
@@ -62,8 +62,8 @@ Add to your Cursor `~/.cursor/mcp.json` file:
       "command": "npx",
       "args": ["-y", "@sargonpiraev/google-tasks-mcp-server"],
       "env": {
-        "GOOGLE-TASKS_CLIENT_ID": "your-google-tasks_client_id",
-        "GOOGLE-TASKS_CLIENT_SECRET": "your-google-tasks_client_secret"
+        "GOOGLE_TASKS_CLIENT_ID": "your-google_tasks_client_id",
+        "GOOGLE_TASKS_CLIENT_SECRET": "your-google_tasks_client_secret"
       }
     }
   }
@@ -87,8 +87,8 @@ Or add manually to your VS Code settings:
       "command": "npx",
       "args": ["-y", "@sargonpiraev/google-tasks-mcp-server"],
       "env": {
-        "GOOGLE-TASKS_CLIENT_ID": "your-google-tasks_client_id",
-        "GOOGLE-TASKS_CLIENT_SECRET": "your-google-tasks_client_secret"
+        "GOOGLE_TASKS_CLIENT_ID": "your-google_tasks_client_id",
+        "GOOGLE_TASKS_CLIENT_SECRET": "your-google_tasks_client_secret"
       }
     }
   }
@@ -109,8 +109,8 @@ Add to your `claude_desktop_config.json`:
       "command": "npx",
       "args": ["-y", "@sargonpiraev/google-tasks-mcp-server"],
       "env": {
-        "GOOGLE-TASKS_CLIENT_ID": "your-google-tasks_client_id",
-        "GOOGLE-TASKS_CLIENT_SECRET": "your-google-tasks_client_secret"
+        "GOOGLE_TASKS_CLIENT_ID": "your-google_tasks_client_id",
+        "GOOGLE_TASKS_CLIENT_SECRET": "your-google_tasks_client_secret"
       }
     }
   }
